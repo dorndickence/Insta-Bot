@@ -21,7 +21,8 @@ from random import randint
 # webdriver = webdriver.Firefox(executable_path=__file__[:i + 1] + 'geckodriver.exe')
 
 #for chromedriver
-chromedriver_path ='C:\Users\Administrator\Insta-Bot\src\chromedriver' # Change this to your own chromedriver path!
+chromedriver_path = r'C:\Users\Administrator\Insta-Bot\src\chromedriver'
+ #Change this to your own chromedriver path!
 service = Service(executable_path=chromedriver_path)
 options = webdriver.ChromeOptions()
 webdriver = webdriver.Chrome(service=service, options=options)
