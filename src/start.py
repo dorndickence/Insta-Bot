@@ -21,7 +21,7 @@ from random import randint
 # webdriver = webdriver.Firefox(executable_path=__file__[:i + 1] + 'geckodriver.exe')
 
 #for chromedriver
-chromedriver_path ='/Users/joseph/Projects/Insta-Bot/src/chromedriver' # Change this to your own chromedriver path!
+chromedriver_path ='C:\Users\Administrator\Insta-Bot\src\chromedriver' # Change this to your own chromedriver path!
 service = Service(executable_path=chromedriver_path)
 options = webdriver.ChromeOptions()
 webdriver = webdriver.Chrome(service=service, options=options)
@@ -36,8 +36,8 @@ button_login.click()
 sleep(3)
 
 # Setup credentials
-account_name="your_username" # Change this to your own Instagram username
-account_password="your_password" # Change this to your own Instagram password
+account_name="dornavan8" # Change this to your own Instagram username
+account_password="Ag202/114344/23dorn?" # Change this to your own Instagram password
 
 # Email & Password inputs
 username = webdriver.find_element(By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/section/main/div/div/div[1]/div[2]/form/div/div[1]/div/label/input')
