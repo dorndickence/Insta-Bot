@@ -66,7 +66,7 @@ try:
 except :
     pass
 
-hashtag_list = ['trip', 'dronephotography', 'traveler'] # Change this to your own tags
+hashtag_list = ['follow me', 'kenyanboy', 'walkingchemical'] # Change this to your own tags
 prev_user_list = [] # If it's the first time you run it, use this line and comment the two below
 # prev_user_list = pd.read_csv('20190604-224633_users_followed_list.csv', delimiter=',').iloc[:,1:2] # useful to build a user log
 # prev_user_list = list(prev_user_list['0'])
