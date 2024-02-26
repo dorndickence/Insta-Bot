@@ -24,9 +24,9 @@ from random import randint
 #for chromedriver
 chromedriver_path = r'C:\Users\Administrator\Insta-Bot\src\chromedriver.exe'
  #Change this to your own chromedriver path!
-service = Service(executable_path=chromedriver_path)
+
 options = webdriver.ChromeOptions()
-webdriver = webdriver.Chrome(service=service, options=options)
+webdriver = webdriver.Chrome(executable_path=chromedriver_path, options=options)
 
 sleep(5)
 webdriver.get('https://www.instagram.com/accounts/login/')
